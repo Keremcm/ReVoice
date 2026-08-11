@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Work / intermediate files
+*.work/
+
+# Outputs
+*_dubbed.mp4
+*.wav
+
+# Test videos
+deneme_*.mp4
+iki*.mp4
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
