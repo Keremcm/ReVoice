@@ -82,11 +82,11 @@ your local cache — a one-time, on-disk download. The result is written as
 ## Project layout
 
 ```
-transvoice/
+revoice/
 ├── main.py                 CLI entry point & pipeline orchestration
 ├── run.sh                  Launcher (sets CUDA library paths)
 ├── requirements.txt
-└── transvoice/
+└── voice/
     ├── audio.py            ffmpeg helpers (extract, stretch, mux)
     ├── transcribe.py       Whisper transcription + Segment dataclass
     ├── translate.py        Ollama translation + language table
