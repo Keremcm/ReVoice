@@ -30,7 +30,7 @@ Requirements: Python 3.11, ffmpeg/ffprobe, a running **Ollama** server
 [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md) for the full setup guide.
 
 ```bash
-git clone https://github.com/Keremcm/ReVoice && cd transvoice
+git clone https://github.com/Keremcm/ReVoice && cd revoice
 python3.11 -m venv venv
 venv/bin/pip install -r requirements.txt
 ffmpeg -version   # must be on PATH
